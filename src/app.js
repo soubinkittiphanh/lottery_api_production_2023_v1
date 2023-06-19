@@ -7,6 +7,9 @@ const buildApp=async(option={})=>{
     app.use(cors());
     app.use(express.json());
     // ******** Old router no /api  prefix *********//
+    app.use("/",(req,res)=>{
+        res.status(200).send("Server is running")
+    })
     app.use("/api",router.commonRouter)
     app.use("/api",router.branchRouter)
     app.use("/api",router.groupRouter)
