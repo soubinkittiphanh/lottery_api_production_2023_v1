@@ -59,7 +59,7 @@ const sale = async (req, res) => {
     if (listOfOverNumber.length < 1) {
         logger.error("Total transaction: " + item.length);
         const bill_num = await get_billnum();
-        const sqlCommand = formSqlCommandForMultiRows(item, bill_num,ism)
+        const sqlCommand = formSqlCommandForMultiRows(item, bill_num,ism,user,qr_code)
         console.log("SQL: " + sql);
 
         conn.query(sqlCommand,
@@ -81,7 +81,7 @@ const sale = async (req, res) => {
         res.send(listOfOverNumber);
     }
 };
-const formSqlCommandForMultiRows = (sale, bill_num,ism) => {
+const formSqlCommandForMultiRows = (sale, bill_num,ism,user,qr_code) => {
     const sqlValueConcatination = '';
     for (let i = 0; i < sale.length; i++) {
         const colon = i < sale.length - 1 ? "," : ";";
