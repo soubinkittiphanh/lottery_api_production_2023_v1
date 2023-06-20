@@ -82,7 +82,7 @@ const sale = async (req, res) => {
     }
 };
 const formSqlCommandForMultiRows = (sale, bill_num,ism,user,qr_code) => {
-    const sqlValueConcatination = '';
+    let sqlValueConcatination = '';
     for (let i = 0; i < sale.length; i++) {
         const colon = i < sale.length - 1 ? "," : ";";
         sqlValueConcatination +=
