@@ -59,29 +59,40 @@ const sale = async (req, res) => {
     if (listOfOverNumber.length < 1) {
         logger.error("Total transaction: " + item.length);
         const bill_num = await get_billnum();
-        const sqlCommand = formSqlCommandForMultiRows(item, bill_num,ism,user,qr_code)
-        console.log("SQL: " + sql);
-
-        conn.query(sqlCommand,
-            (er, result) => {
-                if (er) {
-                    logger.error("Database error: ", er)
-                    return res.send("ເກີດຂໍ້ຜິດພາດທາງເຊີເວີ SQL query");
-                } else {
-                    listOfOverNumber.push({
-                        item: "ສຳເລັດການຂາຍ",
-                        bill_num: String(bill_num),
-                    });
-                    logger.info("Transaction completed")
-                    return res.send(listOfOverNumber);
-                }
-            }
-        );
+        const sqlCommand = formSqlCommandForMultiRows(item, bill_num, ism, user, qr_code)
+        logger.info("SQL: " + sqlCommand);
+        try {
+            const [rows,fields ]= await dbAsync.query(sqlCommand)
+            listOfOverNumber.push({
+                item: "ສຳເລັດການຂາຍ",
+                bill_num: String(bill_num),
+            });
+            logger.info("Transaction completed")
+            return res.send(listOfOverNumber);
+        } catch (error) {
+            logger.error("Database error: ", error)
+            return res.send("ເກີດຂໍ້ຜິດພາດທາງເຊີເວີ SQL query");
+        }
+        // conn.query(sqlCommand,
+        //     (er, result) => {
+        //         if (er) {
+        //             logger.error("Database error: ", er)
+        //             return res.send("ເກີດຂໍ້ຜິດພາດທາງເຊີເວີ SQL query");
+        //         } else {
+        //             listOfOverNumber.push({
+        //                 item: "ສຳເລັດການຂາຍ",
+        //                 bill_num: String(bill_num),
+        //             });
+        //             logger.info("Transaction completed")
+        //             return res.send(listOfOverNumber);
+        //         }
+        //     }
+        // );
     } else {
         res.send(listOfOverNumber);
     }
 };
-const formSqlCommandForMultiRows = (sale, bill_num,ism,user,qr_code) => {
+const formSqlCommandForMultiRows = (sale, bill_num, ism, user, qr_code) => {
     let sqlValueConcatination = '';
     for (let i = 0; i < sale.length; i++) {
         const colon = i < sale.length - 1 ? "," : ";";
