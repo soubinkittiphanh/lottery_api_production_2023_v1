@@ -1,6 +1,6 @@
 const logger = require("../api/logger");
 const conn = require("../config/dbconn");
-const con = require("../config/dbconnPromise");
+const dbAsync = require("../config/dbconnPromise");
 const saleService = require("../service/sale")
 const reverse = async (req, res) => {
     console.log("//::::::::::::::CANCEL BILL::::::::::::::");
@@ -20,7 +20,7 @@ const reverse = async (req, res) => {
 
 const processResversal = async (sql, res) => {
     try {
-        const [rows, fields] = await con.query(sql)
+        const [rows, fields] = await dbAsync.query(sql)
         res.send("Completed");
     } catch (error) {
         logger.error("Server error " + error)
@@ -31,6 +31,12 @@ const processResversal = async (sql, res) => {
 const sale = async (req, res) => {
     console.log("//::::::::::::::SALE::::::::::::::");
     const { item, user, ism, qr_code } = req.body;
+    // 'item': transaction,
+    // 'ism': ismData,
+    // 'user': memID,
+    // 'qr_code': finalBarcode.replaceAll(' ', ''),
+    logger.info(`ISM===>${ism}`)
+    logger.info(`ITEM0===>${item[0]}`)
     let listOfOverNumber = [];
     // let branch;
     // TODO: Improve sale process logic
@@ -55,6 +61,7 @@ const sale = async (req, res) => {
         const bill_num = await get_billnum();
         const sqlCommand = formSqlCommandForMultiRows(item, bill_num)
         console.log("SQL: " + sql);
+        
         conn.query(sqlCommand,
             (er, result) => {
                 if (er) {
@@ -101,7 +108,7 @@ const formSqlCommandForMultiRows = (sale, bill_num) => {
     return sqlCommand
 }
 async function get_billnum() {
-    const [rows, fields] = await con.query(
+    const [rows, fields] = await dbAsync.query(
         `SELECT MAX(sale_bill_id) as pre_bill FROM sale HAVING MAX(sale_bill_id) IS NOT null`
     );
     if (rows.length < 1) {
@@ -140,7 +147,7 @@ const fullLotCheck = async (luck_num, price, ism_ref, brc) => {
 
     console.log("number:" + luck_num + " price: " + price + "ism: " + ism_ref);
     try {
-        const [rows, fields] = await con.query(`SELECT l.brc_code FROM salelimit l WHERE l.brc_code='${brc}'`)
+        const [rows, fields] = await dbAsync.query(`SELECT l.brc_code FROM salelimit l WHERE l.brc_code='${brc}'`)
 
         if (rows.length == 0) {
             brc = "DEFAULT"; //ຖ້າສາຂາໃດບໍ່ໄດ້ກຳນົດເລກເຕັມຮູ ແມ່ນໃຫ້ໃຊ້ ເລກເຕັມຮູຂອງ ສາຂາ Default ມາໄລ່
@@ -168,7 +175,7 @@ const fullLotCheck = async (luck_num, price, ism_ref, brc) => {
 const fullLotCheckSub = async (sqlComMax, luck_num, price) => {
     let isover = [];
     try {
-        const [rows, fields] = await con.query(sqlComMax);
+        const [rows, fields] = await dbAsync.query(sqlComMax);
         const availableToSale = rows[0].maxsale - parseInt(rows[0].total);
         const alreadySold = parseInt(rows[0].total);
         const maxSale = parseInt(rows[0].maxsale);

@@ -81,7 +81,7 @@ const bonusrep = async (req, res) => {
   console.log("//::::::::::::::BONUS CHECK::::::::::::::");
   console.log("======UID=====" + uid);
   const sql = `SELECT FLOOR(SUM(s.sale_price)*${percent}/100) AS sale  FROM sale s WHERE s.ism_id = (SELECT MAX(i.ism_ref) FROM installment i) AND s.is_cancel=0 AND s.mem_id='${uid}'`;
-  await db.query(sql, (er, result) => {
+   db.query(sql, (er, result) => {
     if (er) {
       console.log("======UID=====ERROR");
       console.log(er);
