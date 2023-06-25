@@ -4,6 +4,7 @@ const router = express.Router()
 const {jwtApi} = require("../api")
 router.use(jwtApi.validateToken)
 router.get("/getpayrate", PayRate.getPayRate)
-router.put("/updatepayrate", PayRate.updatePayRate)
+.put("/updatepayrate", PayRate.updatePayRate)
+.delete("/deletepayrate/:id", PayRate.deletePayRateById)
 
     module.exports =  router;

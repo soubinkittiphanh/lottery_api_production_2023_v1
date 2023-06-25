@@ -3,11 +3,22 @@ const db = require("../../config/dbconn");
 const dbAsync = require("../../config/dbconnPromise");
 const getPayRate = async (req, res) => {
   console.log("//::::::::::::::PAYRATE FETCH::::::::::::::");
-  db.query("SELECT * FROM payrate", (err, result) => {
+  db.query("SELECT p.*, b.co_code,b.co_name FROM payrate p LEFT JOIN branch b ON p.branch_id=b.id", (err, result) => {
     if (err) {
       res.send(err);
     } else {
       res.send(result);
+    }
+  });
+};
+const deletePayRateById = async (req, res) => {
+  console.log("//::::::::::::::PAYRATE DELETE::::::::::::::");
+  const {id} = req.params
+  db.query(`DELETE FROM payrate WHERE id =${id}`, (err, result) => {
+    if (err) {
+      res.send(err);
+    } else {
+      res.status(200).send(result);
     }
   });
 };
@@ -65,4 +76,5 @@ const findBranch = async (id) => {
 module.exports = {
   getPayRate,
   updatePayRate,
+  deletePayRateById
 };
