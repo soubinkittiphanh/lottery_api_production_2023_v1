@@ -87,7 +87,7 @@ const signOn = async (req, res) => {
 };
 
 const generateToken = (user) => {
-    const token = jwt.sign(user, secretKey, { expiresIn: '2h' });
+    const token = jwt.sign(user, secretKey, { expiresIn: '15h' });
     return token
 }
 module.exports = {

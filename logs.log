@@ -1,0 +1,929 @@
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T07:24:50.087Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T07:24:50.089Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T07:24:50.089Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T07:24:50.089Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T07:24:50.091Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T07:32:41.575Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T07:32:41.577Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T07:32:41.578Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T07:32:41.578Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T07:32:41.579Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T07:32:46.092Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE1OTk2OCwiZXhwIjoxNjg3MTY3MTY4fQ.NbRVa3Qc9ambw8OEJpzoMTxJMho-aJGI8Y24TH7PtsI","timestamp":"2023-06-19T07:32:48.551Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T07:32:52.175Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE1OTk2OCwiZXhwIjoxNjg3MTY3MTY4fQ.NbRVa3Qc9ambw8OEJpzoMTxJMho-aJGI8Y24TH7PtsI","timestamp":"2023-06-19T07:32:52.180Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE1OTk2OCwiZXhwIjoxNjg3MTY3MTY4fQ.NbRVa3Qc9ambw8OEJpzoMTxJMho-aJGI8Y24TH7PtsI","timestamp":"2023-06-19T07:32:52.183Z"}
+{"level":"info","message":{"exp":1687167168,"iat":1687159968,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T07:32:52.187Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T07:53:49.577Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T07:53:49.579Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T07:53:49.580Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T07:53:49.580Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T07:53:49.582Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T07:55:23.525Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-06-19T07:55:25.933Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T08:21:31.896Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T08:22:23.340Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-06-19T08:22:24.864Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T08:44:14.944Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T08:44:14.946Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T08:44:14.946Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T08:44:14.946Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T08:44:14.948Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T08:45:08.221Z"}
+{"level":"info","message":"Validating token: undefined","timestamp":"2023-06-19T08:45:08.227Z"}
+{"level":"warn","message":"Token: undefined","timestamp":"2023-06-19T08:45:08.228Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T08:45:17.069Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:19.527Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-19T08:45:40.419Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.428Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.434Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.439Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.443Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.446Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.447Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.450Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.454Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.455Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.459Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.459Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.465Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.469Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.469Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.472Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.475Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.475Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.475Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.475Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzE2NDMxOSwiZXhwIjoxNjg3MTcxNTE5fQ.WOW8rQJQ7lX7jR6uyWUjnLIdonTEyXz-_ku0R2ZcWww","timestamp":"2023-06-19T08:45:40.476Z"}
+{"level":"info","message":{"exp":1687171519,"iat":1687164319,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-19T08:45:40.477Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T10:42:16.319Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T10:42:16.321Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T10:42:16.322Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T10:42:16.322Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T10:42:16.323Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-19T10:43:29.643Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-19T10:43:29.645Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-19T10:43:29.647Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-19T10:43:29.647Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-19T10:43:29.648Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T03:03:35.703Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2ODQ1ODY5NzcsImV4cCI6MTY4NDU5NDE3N30.WAbtHclnOiYSe2m2pUSgTlO1ZYJKODiazOvtJprlirA","timestamp":"2023-06-20T03:03:35.712Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2ODQ1ODY5NzcsImV4cCI6MTY4NDU5NDE3N30.WAbtHclnOiYSe2m2pUSgTlO1ZYJKODiazOvtJprlirA","timestamp":"2023-06-20T03:03:35.713Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T03:03:44.070Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:03:46.528Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T03:04:01.133Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.138Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.141Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.144Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.150Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.153Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.155Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.158Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.160Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.163Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.165Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.165Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.166Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.167Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.167Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.167Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.168Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.168Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.169Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.169Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.169Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.169Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.170Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T03:04:01.170Z"}
+{"level":"info","message":{"exp":1687237426,"iat":1687230226,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T03:04:01.171Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T03:04:03.875Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T03:04:05.276Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T03:04:06.610Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T03:05:51.752Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T03:05:51.754Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T03:05:51.754Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T03:05:51.754Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T03:05:51.756Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T13:21:06.683Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T13:21:06.685Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T13:21:06.685Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T13:21:06.686Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T13:21:06.687Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T13:21:07.761Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T13:21:07.763Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzIzMDIyNiwiZXhwIjoxNjg3MjM3NDI2fQ.c3WrpIXA_VzcxWMrMqc1qBdEm2aPTG6ipWFTUoHiDSU","timestamp":"2023-06-20T13:21:07.764Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T13:21:13.684Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:16.133Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T13:21:38.668Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.677Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.680Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.682Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.685Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.687Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.688Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.689Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.691Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.692Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.695Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.695Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.697Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.700Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.700Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.700Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.700Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.701Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.701Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.701Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.701Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.704Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.708Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T13:21:38.708Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T13:21:38.709Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T13:21:38.713Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T13:21:38.713Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T13:21:41.799Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T13:21:43.265Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T13:21:44.720Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T13:21:46.264Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T13:21:47.947Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T13:21:49.495Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T13:21:51.130Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T13:21:52.670Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T13:21:54.503Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T13:21:56.247Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T13:21:57.783Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T14:20:56.256Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.260Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.261Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.278Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.282Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.282Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.288Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.289Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.289Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.290Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.292Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.293Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.294Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.296Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.296Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.298Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.300Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.300Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.301Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.302Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.303Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.303Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.305Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:20:56.305Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:20:56.305Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T14:20:56.306Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T14:20:56.306Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T14:20:58.546Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:21:00.343Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:21:02.074Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:21:03.659Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:21:05.301Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:21:07.031Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:21:09.078Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:21:10.717Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:21:12.465Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:21:14.185Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:21:15.738Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T14:28:39.313Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T14:28:39.315Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T14:28:39.315Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T14:28:39.316Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T14:28:39.317Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T14:28:40.252Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.254Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.255Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.259Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.260Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.263Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.266Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.269Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.270Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.274Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.276Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.278Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.280Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.283Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.284Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.285Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.288Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.288Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.290Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.292Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.292Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.292Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.293Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T14:28:40.293Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T14:28:40.293Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T14:28:40.293Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T14:28:40.294Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:42.511Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:43.744Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T14:28:43.808Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:44.459Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:45.893Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:28:45.901Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:46.323Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:47.639Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:28:47.650Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:48.023Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:49.482Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:28:49.492Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:49.956Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:51.228Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:28:51.240Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:51.732Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:52.891Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:28:52.900Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:53.367Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:54.701Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:28:54.705Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:55.103Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:56.435Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:28:56.436Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:56.817Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:58.179Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:28:58.191Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:28:58.693Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:28:59.823Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T14:28:59.825Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T14:29:00.223Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T14:29:01.554Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T14:29:01.556Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:00:19.947Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:00:19.949Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:00:19.950Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:00:19.950Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:00:19.951Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:00:22.962Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.963Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.964Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.967Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.969Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.971Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.973Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.976Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.977Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.980Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.983Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.985Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.986Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.989Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.989Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.991Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.994Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.996Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.996Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:00:22.997Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:00:22.998Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:00:23.001Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:24.739Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:26.061Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:00:26.136Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:26.691Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:28.090Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:00:28.098Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:28.616Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:29.846Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:00:29.857Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:30.257Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:31.484Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:00:31.492Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:31.978Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:33.328Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:00:33.341Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:33.705Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:34.963Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:00:34.974Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:35.322Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:36.707Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:00:36.711Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:37.313Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:38.545Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:00:38.547Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:38.953Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:40.084Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:00:40.096Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:40.597Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:41.909Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:00:41.910Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:00:42.330Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:00:43.666Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:00:43.668Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:01:36.342Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:01:36.344Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:01:36.344Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:01:36.344Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:01:36.346Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:05:29.733Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:05:29.735Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:05:29.735Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:05:29.736Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:05:29.737Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:05:38.927Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.929Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.930Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.935Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.937Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.939Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.942Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.946Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.947Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.950Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.954Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.956Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.958Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.961Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.961Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.962Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.966Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.967Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.968Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.968Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.968Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.969Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.969Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:05:38.969Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:05:38.969Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:05:38.970Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:05:38.973Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:41.356Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:42.685Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:42.728Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:05:42.728Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:43.199Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:44.750Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:44.758Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:05:44.758Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:45.248Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:46.458Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:46.466Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:05:46.466Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:46.983Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:48.225Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:48.234Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:05:48.234Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:49.023Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:50.264Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:50.272Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:05:50.278Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:53.124Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:54.568Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:54.576Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:05:54.576Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:54.940Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:56.200Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:56.209Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:05:56.209Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:56.713Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:57.934Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:57.936Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:05:57.936Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:05:58.650Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:05:59.945Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:05:59.955Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:05:59.955Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:06:00.502Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:06:01.619Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:06:01.621Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:06:01.621Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:06:02.026Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:06:03.255Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:06:03.258Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:06:03.258Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:07:16.041Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:07:16.043Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:07:16.043Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:07:16.043Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:07:16.045Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:07:40.571Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:07:40.574Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:07:40.575Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:07:40.575Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:07:40.577Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:11:01.792Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:11:01.794Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:11:01.794Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:11:01.795Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:11:01.796Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:11:06.821Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.823Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.823Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.826Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.828Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.830Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.832Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.835Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.836Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.840Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.844Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.846Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.848Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.851Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.851Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.853Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.857Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.860Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.861Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.861Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.861Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.861Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.861Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:11:06.862Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:11:06.862Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:11:06.863Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:11:06.866Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:09.374Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:10.677Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:10.715Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:11:10.716Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:11.183Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:12.824Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:12.832Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:11:12.833Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:13.321Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:14.875Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:14.884Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:11:14.885Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:15.253Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:16.415Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:16.426Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:11:16.426Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:16.822Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:17.954Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:17.965Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:11:17.974Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:18.362Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:19.692Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:19.703Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:11:19.704Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:20.097Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:21.336Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:21.347Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:11:21.347Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:21.769Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:23.264Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:23.265Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:11:23.266Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:23.780Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:25.012Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:25.026Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:11:25.026Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:25.390Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:26.651Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:26.653Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:11:26.653Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:11:27.163Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:11:28.392Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:11:28.394Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:11:28.395Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:14:33.521Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:14:33.523Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:14:33.523Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:14:33.523Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:14:33.525Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:14:44.346Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.349Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.349Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.353Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.355Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.357Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.360Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.363Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.365Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.369Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.373Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.376Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.378Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.381Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.381Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.383Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.388Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.391Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.392Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.392Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.392Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.393Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.393Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:14:44.393Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:14:44.393Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:14:44.395Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:14:44.397Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:46.651Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:47.840Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:47.882Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:14:47.882Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:48.245Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:49.411Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:49.417Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:14:49.417Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:49.927Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:51.153Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:51.161Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:14:51.161Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:51.600Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:52.796Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:52.805Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:14:52.805Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:53.387Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:54.558Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:54.566Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:14:54.572Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:55.096Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:56.296Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:56.306Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:14:56.306Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:56.889Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:58.221Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:58.230Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:14:58.230Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:14:58.834Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:14:59.997Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:14:59.998Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:14:59.998Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:00.469Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:01.726Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:01.740Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:15:01.741Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:02.424Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:03.642Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:03.643Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:15:03.643Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:04.055Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:05.183Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:05.185Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:15:05.185Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:15:38.198Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.200Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.201Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.204Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.205Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.206Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.208Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.209Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.209Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.210Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.211Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.211Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.211Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.212Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.212Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.213Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.214Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.214Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.216Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.217Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.217Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.219Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.220Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:15:38.220Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:15:38.224Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:15:38.224Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:15:38.224Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:39.176Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:40.407Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:40.409Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:15:40.410Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:40.837Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:42.065Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:42.065Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:15:42.066Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:42.556Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:43.784Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:43.786Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:44.293Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:45.627Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:45.628Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:15:45.629Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:46.037Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:47.266Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:47.267Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:47.675Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:48.799Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:48.800Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:15:48.800Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:49.164Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:50.233Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:50.235Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:50.645Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:51.771Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:51.773Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:52.110Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:53.512Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:53.514Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:53.864Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:55.048Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:55.050Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:15:55.457Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:15:56.687Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:15:56.688Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:19:42.126Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:19:42.128Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:19:42.128Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:19:42.129Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:19:42.130Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:19:55.897Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.899Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.900Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.905Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.907Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.909Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.912Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.915Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.917Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.922Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.926Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.929Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.930Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.933Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.933Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.935Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.939Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.940Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.941Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.941Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.942Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.942Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.942Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:19:55.942Z"}
+{"level":"info","message":{"exp":1687274476,"iat":1687267276,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:19:55.942Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:19:55.943Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:19:55.946Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:19:57.696Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:19:58.882Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:19:58.928Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:19:58.929Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:19:59.383Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:00.549Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:00.557Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:20:00.557Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:01.023Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:02.252Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:02.260Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:02.661Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:03.994Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:04.003Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:20:04.003Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:04.404Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:05.635Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:05.643Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:06.354Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:07.576Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:07.584Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:20:07.584Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:07.989Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:09.115Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:09.116Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:09.514Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:10.640Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:10.642Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:11.050Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:12.595Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:12.604Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:13.108Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:14.331Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:14.333Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:20:14.739Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:20:15.854Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:20:15.856Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:21:51.064Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:21:51.066Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:21:51.067Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:21:51.068Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:21:51.069Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:21:56.744Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:21:56.746Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI2NzI3NiwiZXhwIjoxNjg3Mjc0NDc2fQ.gQqj_XGuA1w-OO2fhV-jReyZRQ8WeF51t7Q8HL17TTA","timestamp":"2023-06-20T15:21:56.747Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:22:04.163Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:06.490Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:22:22.399Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.409Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.414Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.418Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.422Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.425Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.426Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.427Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.430Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.432Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.438Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.438Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.441Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.445Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.445Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.446Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.446Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.446Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.446Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.447Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.447Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.452Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.458Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:22:22.458Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:22:22.460Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:22:22.466Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:22:22.466Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:24.383Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:25.607Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:25.636Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:22:25.636Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:25.983Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:27.353Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:27.354Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:22:27.355Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:27.699Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:28.989Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:28.991Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:22:28.991Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:29.397Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:30.524Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:30.525Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:22:30.525Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:31.034Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:32.265Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:32.266Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:22:32.266Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:32.619Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:33.905Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:33.906Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:22:33.907Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:34.316Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:35.444Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:35.445Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:22:35.445Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:35.951Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:37.280Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:37.281Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:22:37.281Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:37.628Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:38.721Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:38.722Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:22:38.722Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:39.069Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:40.253Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:40.255Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:22:40.255Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:22:40.709Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:22:42.101Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:22:42.103Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:22:42.104Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:22:54.148Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:22:54.150Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:22:54.150Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:22:54.151Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:22:54.152Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:23:12.863Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.865Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.865Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.868Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.871Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.873Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.877Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.880Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.882Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.886Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.890Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.893Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.895Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.899Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.899Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.900Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.904Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.906Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.907Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.907Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.908Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.908Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.908Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:12.908Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:12.908Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:23:12.909Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:23:12.912Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:15.175Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:16.614Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:16.661Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:23:16.662Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:17.019Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:18.349Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:18.360Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:18.360Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:18.756Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:19.989Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:19.999Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:23:20.000Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:20.499Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:21.731Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:21.741Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:21.742Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:22.245Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:23.476Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:23.487Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:23:23.487Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:23.882Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:25.016Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:25.020Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:25.020Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:25.366Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:26.440Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:26.445Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:23:26.452Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:26.953Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:28.276Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:28.277Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:28.278Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:28.787Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:29.944Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:29.952Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:23:29.952Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:30.537Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:31.655Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:31.657Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:31.657Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:32.170Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:33.295Z"}
+{"level":"info","message":"Available to Sale: 0 Sold: 0 Max: 0","timestamp":"2023-06-20T15:23:33.296Z"}
+{"level":"error","message":"Transaction 0324 is over ","timestamp":"2023-06-20T15:23:33.297Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:23:40.188Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:23:40.190Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:23:40.190Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:23:40.191Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:23:40.192Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-20T15:23:51.084Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-20T15:23:51.086Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-20T15:23:51.087Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-20T15:23:51.087Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-20T15:23:51.088Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-20T15:23:52.720Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.724Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.725Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.728Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.730Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.732Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.735Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.740Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.742Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.747Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.751Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.753Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.755Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.759Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.759Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.760Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.765Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.767Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzI3NDUyNiwiZXhwIjoxNjg3MjgxNzI2fQ.xS_qeXGdaYj42NFTLiPgfVLK7XjbEdfkc_8ha33Nvfg","timestamp":"2023-06-20T15:23:52.768Z"}
+{"level":"info","message":{"exp":1687281726,"iat":1687274526,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-20T15:23:52.769Z"}
+{"level":"info","message":"ISM===>10306","timestamp":"2023-06-20T15:23:52.770Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-06-20T15:23:52.773Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:54.699Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:56.036Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:23:56.076Z"}
+{"level":"error","message":"Transaction 0322 is over ","timestamp":"2023-06-20T15:23:56.077Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:56.644Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:57.776Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:23:57.787Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:23:57.788Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:58.184Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:23:59.316Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:23:59.327Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:23:59.721Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:00.854Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:00.866Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:24:00.867Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:01.259Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:02.487Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:02.499Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:02.865Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:04.028Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:04.039Z"}
+{"level":"error","message":"Transaction 0321 is over ","timestamp":"2023-06-20T15:24:04.040Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:04.387Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:05.661Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:05.664Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:06.063Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:07.291Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:07.292Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:07.645Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:08.828Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:08.837Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:09.210Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:10.365Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:10.366Z"}
+{"level":"warn","message":"Start","timestamp":"2023-06-20T15:24:10.774Z"}
+{"level":"warn","message":"End","timestamp":"2023-06-20T15:24:11.898Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-06-20T15:24:11.900Z"}
