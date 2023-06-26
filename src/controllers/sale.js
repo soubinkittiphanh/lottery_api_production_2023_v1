@@ -53,7 +53,7 @@ const sale = async (req, res) => {
             return;
         }
         console.log(`Total transaction: ${item.length}`);
-        const billNum = await getBillNum();
+        const billNum = await getBillnum();
         const sqlCommand = formSqlCommandForMultiRows(item, billNum, ism, user, qr_code);
         console.log(`SQL: ${sqlCommand}`);
         const [rows, fields] = await dbAsync.query(sqlCommand);
@@ -161,7 +161,7 @@ const formSqlCommandForMultiRows = (sale, bill_num, ism, user, qr_code) => {
     const sqlCommand = `INSERT INTO sale(sale_bill_id, ism_id, sale_num, sale_price, mem_id, client_date,qr_code) VALUES ${sqlValues.join(',')};`;
     return sqlCommand;
 }
-async function get_billnum() {
+async function getBillnum() {
     const [rows, fields] = await dbAsync.query(
         `SELECT MAX(sale_bill_id) as pre_bill FROM sale HAVING MAX(sale_bill_id) IS NOT null`
     );
