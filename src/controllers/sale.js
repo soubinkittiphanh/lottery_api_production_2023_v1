@@ -153,12 +153,13 @@ const formSqlCommandForMultiRows = (sale, bill_num, ism, user, qr_code) => {
             sale[i].lek,
             sale[i].sale,
             user,
-            sale[i].date,
+            // sale[i].date,
             qr_code
         ];
         sqlValues.push(`(${values.join(',')})`);
     }
-    const sqlCommand = `INSERT INTO sale(sale_bill_id, ism_id, sale_num, sale_price, mem_id, client_date,qr_code) VALUES ${sqlValues.join(',')};`;
+    // const sqlCommand = `INSERT INTO sale(sale_bill_id, ism_id, sale_num, sale_price, mem_id, client_date,qr_code) VALUES ${sqlValues.join(',')};`;
+    const sqlCommand = `INSERT INTO sale(sale_bill_id, ism_id, sale_num, sale_price, mem_id,qr_code) VALUES ${sqlValues.join(',')};`;
     return sqlCommand;
 }
 async function getBillnum() {
