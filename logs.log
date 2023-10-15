@@ -2094,3 +2094,867 @@
 {"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-25T04:27:14.700Z"}
 {"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-25T04:27:14.700Z"}
 {"level":"info","message":{"exp":1687719538,"iat":1687665538,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-25T04:27:14.700Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-28T03:02:31.273Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-28T03:02:31.275Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-28T03:02:31.276Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-28T03:02:31.276Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-28T03:02:31.278Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-28T03:03:24.919Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-28T03:03:24.920Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-28T03:03:24.921Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-28T03:03:24.921Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-28T03:03:24.923Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:30.586Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.590Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.591Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:30.607Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.610Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.613Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:30.627Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.636Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzY2NTUzOCwiZXhwIjoxNjg3NzE5NTM4fQ.bFj0KGYsnLkmZO8uUPtVycz-aAO1-nMcWkqT_HN8Mq8","timestamp":"2023-06-28T03:03:30.638Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:39.729Z"}
+{"level":"warn","message":"Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:42.901Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:48.040Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.046Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.046Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.048Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.048Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.049Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.050Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.050Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.050Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.050Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.051Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.051Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.052Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.053Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.053Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.054Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.055Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.055Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.058Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.059Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.059Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.060Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:03:48.071Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.072Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.072Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.074Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.075Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.076Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.078Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.080Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.081Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.083Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.084Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:03:48.085Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:03:48.087Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-28T03:04:49.485Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-28T03:04:49.487Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-28T03:04:49.487Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-28T03:04:49.488Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-28T03:04:49.489Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-28T03:04:59.688Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-28T03:04:59.690Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-28T03:04:59.691Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-28T03:04:59.691Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-28T03:04:59.692Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:05:05.024Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.029Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.031Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.039Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.043Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.046Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.050Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.056Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.059Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.063Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.068Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.071Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.071Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.075Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.075Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.077Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.080Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.080Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.082Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.085Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.085Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.085Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:05:05.100Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.105Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.109Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.111Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.114Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.116Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.119Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.124Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.127Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.129Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.135Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:05.138Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:05.139Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-06-28T03:05:54.818Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-06-28T03:05:54.821Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-06-28T03:05:54.822Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-06-28T03:05:54.822Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-06-28T03:05:54.824Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:05:57.653Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.657Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.658Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.663Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.665Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.668Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.673Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.676Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.678Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.681Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.684Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.686Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.687Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:05:57.698Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.703Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.706Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.708Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.713Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.715Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.716Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.718Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.721Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.722Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.727Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.730Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.731Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.734Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.738Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.740Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.744Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.744Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.746Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.749Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:05:57.749Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:05:57.750Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:18:06.385Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.399Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.401Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.425Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.427Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.428Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.430Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.431Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.431Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.433Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.434Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.434Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.435Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.438Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.438Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.439Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.442Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.442Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.445Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.447Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.448Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.449Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:18:06.475Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.476Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.476Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.480Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.480Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.480Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.481Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.481Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.481Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.483Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.483Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:06.484Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:06.485Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:18:24.747Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.748Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.749Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.750Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.750Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.750Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.751Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.752Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.752Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.752Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.752Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.752Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.753Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.753Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.753Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.753Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:18:24.765Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.766Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.766Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.770Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.770Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.770Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.771Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.772Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.772Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.772Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.772Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:18:24.772Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:18:24.773Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:19:56.139Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.143Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.144Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.149Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.149Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.149Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.149Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.150Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.150Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.150Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.150Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.150Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.151Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.152Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.152Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.153Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.154Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.154Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.155Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.155Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.155Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.156Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:19:56.160Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.160Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.160Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.160Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:19:56.163Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:19:56.164Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:21:52.162Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.164Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.164Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.168Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.168Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.169Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.170Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.170Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.170Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.171Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.171Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.172Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.175Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.175Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.175Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.175Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-06-28T03:21:52.185Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.185Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.185Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.187Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.187Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.187Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.189Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.190Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.190Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.190Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.191Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1fbmFtZSI6IkFkbWluaXN0cmF0b3IiLCJtZW1faWQiOjEwMDAsImlhdCI6MTY4NzkyMTQyMiwiZXhwIjoxNjg3OTc1NDIyfQ.r3Lk8WMyEDXth8RLlk1LCqH458YvI92DrCl7-nm4XHk","timestamp":"2023-06-28T03:21:52.191Z"}
+{"level":"info","message":{"exp":1687975422,"iat":1687921422,"mem_id":1000,"mem_name":"Administrator"},"timestamp":"2023-06-28T03:21:52.191Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-14T07:52:45.729Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-14T07:52:45.731Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-14T07:52:45.732Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-14T07:52:45.732Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-14T07:52:45.733Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-14T07:53:03.392Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-14T07:53:03.393Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-14T07:53:03.394Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-14T07:53:03.395Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-14T07:53:03.396Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-14T07:53:44.948Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-14T07:53:47.329Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-14T08:09:22.748Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-14T08:09:24.440Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-14T08:09:33.214Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-14T08:09:34.923Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-14T08:17:36.949Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-14T08:17:39.137Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T02:47:09.802Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T02:47:09.804Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T02:47:09.804Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T02:47:09.804Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T02:47:09.806Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T02:47:46.811Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T02:47:49.134Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T02:48:33.295Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T02:48:34.708Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T02:54:45.891Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T02:54:47.456Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T02:56:10.449Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T02:56:11.937Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:12:19.809Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T03:12:22.802Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:14:25.342Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T03:14:26.808Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:14:27.279Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.292Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.292Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:27.303Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.304Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.304Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:27.306Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.308Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:27.308Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:27.309Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:14:48.408Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.411Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.412Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.412Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.414Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.415Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.416Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.418Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.419Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.420Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.422Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.423Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.424Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.424Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.424Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.425Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.426Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.426Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.428Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.430Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:48.430Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:48.431Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:14:49.380Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.382Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.382Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.384Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.385Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.385Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.386Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.387Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.387Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.387Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.387Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.387Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.388Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.390Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.391Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.393Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.394Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.396Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.397Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.398Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:49.399Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:49.400Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:14:58.899Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.901Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.902Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.904Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.904Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.904Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.905Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.905Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.906Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.906Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.907Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.907Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.907Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.907Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.908Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.908Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.908Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.908Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.908Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.909Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:14:58.909Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:14:58.909Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:15:04.011Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.013Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.013Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.015Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.015Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.015Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.015Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.015Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.016Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.016Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.016Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.016Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.016Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:04.017Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:15:18.934Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.934Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.934Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.937Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:18.938Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:15:26.400Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.401Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.401Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.403Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.403Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.403Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.404Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.405Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:15:26.406Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:15:26.406Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:17:20.741Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.745Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.745Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.751Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.751Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.751Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.753Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.754Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.754Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.755Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.755Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.755Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.757Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.759Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.760Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.762Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:20.764Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:17:21.722Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.722Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.722Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.724Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:17:21.725Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:18:20.840Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.841Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.841Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.843Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.844Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.845Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.845Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.847Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.847Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.847Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.847Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.848Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:20.848Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:20.850Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:18:22.041Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.042Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.042Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.043Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.044Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczMzk2NjYsImV4cCI6MTY5NzM5MzY2Nn0.IjZic1BR_-xFqCzSN0o1KojfetKQolSIx3nxhifeEEc","timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"info","message":{"exp":1697393666,"iat":1697339666,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:18:22.045Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:18:31.732Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:41:38.212Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T03:41:40.595Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:41:41.186Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.187Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.187Z"}
+{"level":"info","message":{"exp":1697395300,"iat":1697341300,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:41:41.191Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.192Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.192Z"}
+{"level":"info","message":{"exp":1697395300,"iat":1697341300,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:41:41.195Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.195Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDEzMDAsImV4cCI6MTY5NzM5NTMwMH0.dx0sGdDCCW2bUcm36nIvEs9wIyat6BjcBrjuOWkEPXc","timestamp":"2023-10-15T03:41:41.195Z"}
+{"level":"info","message":{"exp":1697395300,"iat":1697341300,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:41:41.196Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T03:43:22.755Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T03:43:22.757Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T03:43:22.758Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T03:43:22.758Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T03:43:22.760Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T03:43:31.292Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T03:43:31.294Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T03:43:31.294Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T03:43:31.295Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T03:43:31.296Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:43:43.363Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T03:43:55.530Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T03:43:55.597Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.599Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.600Z"}
+{"level":"info","message":{"exp":1697395435,"iat":1697341435,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:43:55.603Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.606Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.608Z"}
+{"level":"info","message":{"exp":1697395435,"iat":1697341435,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:43:55.610Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.613Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDE0MzUsImV4cCI6MTY5NzM5NTQzNX0.4AvB_bO9Rxhu515OPzEabJPsUKW3T7F2YaQk1V6VRfg","timestamp":"2023-10-15T03:43:55.615Z"}
+{"level":"info","message":{"exp":1697395435,"iat":1697341435,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T03:43:55.617Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:12:50.312Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:12:51.863Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:18:31.488Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:18:32.918Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:18:33.452Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.454Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.455Z"}
+{"level":"info","message":{"exp":1697397512,"iat":1697343512,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:18:33.461Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.464Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.465Z"}
+{"level":"info","message":{"exp":1697397512,"iat":1697343512,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:18:33.465Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.467Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDM1MTIsImV4cCI6MTY5NzM5NzUxMn0.rVoWqJcD-1576IRaVVB4rHyDZQJ2UuZpDrOSAjxFNtQ","timestamp":"2023-10-15T04:18:33.468Z"}
+{"level":"info","message":{"exp":1697397512,"iat":1697343512,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:18:33.468Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:26:41.447Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:26:43.056Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:26:43.528Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.529Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.529Z"}
+{"level":"info","message":{"exp":1697398003,"iat":1697344003,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:26:43.532Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.533Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.533Z"}
+{"level":"info","message":{"exp":1697398003,"iat":1697344003,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:26:43.534Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.535Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQwMDMsImV4cCI6MTY5NzM5ODAwM30.76RY4DAl7fhh2nA7uSKVUfFadKBJPMgBJXILzED_Q1k","timestamp":"2023-10-15T04:26:43.538Z"}
+{"level":"info","message":{"exp":1697398003,"iat":1697344003,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:26:43.541Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:30:43.311Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:30:44.820Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:30:44.929Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.932Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.932Z"}
+{"level":"info","message":{"exp":1697398244,"iat":1697344244,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:44.941Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.942Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.942Z"}
+{"level":"info","message":{"exp":1697398244,"iat":1697344244,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:44.943Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.943Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNDQsImV4cCI6MTY5NzM5ODI0NH0.LGfVIpRkw0etCNcpjPT6KmL3wz0RsHzg7z8DcNtlc10","timestamp":"2023-10-15T04:30:44.943Z"}
+{"level":"info","message":{"exp":1697398244,"iat":1697344244,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:44.944Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:30:58.051Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:30:59.460Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:30:59.917Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.923Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.923Z"}
+{"level":"info","message":{"exp":1697398259,"iat":1697344259,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:59.925Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.926Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.926Z"}
+{"level":"info","message":{"exp":1697398259,"iat":1697344259,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:59.928Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.928Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQyNTksImV4cCI6MTY5NzM5ODI1OX0.etlyN_cSDWmBRfchGAYjoku50NpfgPAM3nq8bJEkVp0","timestamp":"2023-10-15T04:30:59.928Z"}
+{"level":"info","message":{"exp":1697398259,"iat":1697344259,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:30:59.928Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:32:13.939Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T04:32:46.163Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T04:32:46.164Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T04:32:46.165Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T04:32:46.165Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T04:32:46.167Z","username":"johndoe"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:32:49.930Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:32:52.112Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:32:52.528Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.531Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.532Z"}
+{"level":"info","message":{"exp":1697398372,"iat":1697344372,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:32:52.536Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.538Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.539Z"}
+{"level":"info","message":{"exp":1697398372,"iat":1697344372,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:32:52.541Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.545Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzNzIsImV4cCI6MTY5NzM5ODM3Mn0.QWhqWCgI50XwayfKe-FZnp5_Tn66Zm3xO6yMO0FKieA","timestamp":"2023-10-15T04:32:52.548Z"}
+{"level":"info","message":{"exp":1697398372,"iat":1697344372,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:32:52.549Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:33:13.518Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:33:15.143Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:33:15.618Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.625Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.627Z"}
+{"level":"info","message":{"exp":1697398395,"iat":1697344395,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:15.630Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.633Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.634Z"}
+{"level":"info","message":{"exp":1697398395,"iat":1697344395,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:15.635Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.637Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQzOTUsImV4cCI6MTY5NzM5ODM5NX0.dcRdZq63SG35DDtpMm3U1CT9SsOsDc-8geUKiwzvoI4","timestamp":"2023-10-15T04:33:15.637Z"}
+{"level":"info","message":{"exp":1697398395,"iat":1697344395,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:15.637Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:33:40.463Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:33:41.971Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:33:42.408Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.409Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.409Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:42.411Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.411Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.411Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:42.412Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.413Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:33:42.413Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:33:42.413Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:34:15.530Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.533Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.533Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:15.535Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:15.536Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:34:16.294Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.294Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.295Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.296Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.297Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.297Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.298Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.299Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.299Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.299Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.299Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.300Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.301Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ0MjEsImV4cCI6MTY5NzM5ODQyMX0.iII69mm-scr1TonLyKtb9Kda3lUEP7FIa8hVafzaOIk","timestamp":"2023-10-15T04:34:16.301Z"}
+{"level":"info","message":{"exp":1697398421,"iat":1697344421,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:34:16.302Z"}
+{"level":"info","message":"ISM===>10313","timestamp":"2023-10-15T04:34:16.302Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-10-15T04:34:16.302Z"}
+{"level":"warn","message":"Start","timestamp":"2023-10-15T04:34:18.448Z"}
+{"level":"warn","message":"End","timestamp":"2023-10-15T04:34:19.555Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-10-15T04:34:19.563Z"}
+{"level":"info","message":"Transaction completed","timestamp":"2023-10-15T04:34:20.983Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:36:27.519Z"}
+{"level":"info","message":"Password validated","timestamp":"2023-10-15T04:36:28.752Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:36:29.196Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.197Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.197Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:29.199Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.200Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.200Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:29.200Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.201Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:29.201Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:29.201Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:36:34.579Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.580Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.580Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:34.582Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.583Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.583Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:34.583Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.584Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:34.584Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:34.584Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:36:35.564Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.564Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.564Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.566Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.567Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.568Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.568Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.568Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.569Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.569Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.571Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.572Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.572Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.572Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:35.573Z"}
+{"level":"info","message":"ISM===>10313","timestamp":"2023-10-15T04:36:35.574Z"}
+{"level":"info","message":"ITEM0===>[object Object]","timestamp":"2023-10-15T04:36:35.574Z"}
+{"level":"warn","message":"Start","timestamp":"2023-10-15T04:36:36.358Z"}
+{"level":"warn","message":"End","timestamp":"2023-10-15T04:36:37.766Z"}
+{"level":"info","message":"Available to Sale: 1,000 Sold: 0 Max: 1,000","timestamp":"2023-10-15T04:36:37.766Z"}
+{"level":"info","message":"Transaction completed","timestamp":"2023-10-15T04:36:39.223Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T04:36:42.941Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.941Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.941Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.942Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.942Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.942Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.943Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.943Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.943Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.943Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.944Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.944Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.945Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.945Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.945Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.946Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.946Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.946Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.946Z"}
+{"level":"info","message":"Validating token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.946Z"}
+{"level":"warn","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAwMCwibmFtZSI6IkFkbWluaXN0cmF0b3IiLCJpYXQiOjE2OTczNDQ1ODgsImV4cCI6MTY5NzM5ODU4OH0.3IOik-DpgcBiOkBpfQGVGksThK0kGcosaQr20Uq_XMQ","timestamp":"2023-10-15T04:36:42.947Z"}
+{"level":"info","message":{"exp":1697398588,"iat":1697344588,"id":1000,"name":"Administrator"},"timestamp":"2023-10-15T04:36:42.947Z"}
+{"level":"info","message":"User authentication","timestamp":"2023-10-15T05:26:05.657Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:26:18.467Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:26:18.468Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:26:18.470Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:26:18.470Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:26:18.471Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:28:42.390Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:28:42.392Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:28:42.392Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:28:42.393Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:28:42.394Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:34:56.374Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:34:56.376Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:34:56.376Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:34:56.376Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:34:56.378Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:37:31.875Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:37:31.877Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:37:31.877Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:37:31.877Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:37:31.879Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:04.764Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:04.766Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:04.766Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:04.766Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:04.768Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:14.484Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:14.485Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:14.486Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:14.486Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:14.487Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:32.363Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:32.365Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:32.365Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:32.366Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:32.367Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:38.366Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:38.368Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:38.368Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:38.369Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:38.370Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:44.676Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:44.677Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:44.678Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:44.678Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:44.680Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:39:46.034Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:39:46.036Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:39:46.036Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:39:46.037Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:39:46.038Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:41:04.641Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:41:04.643Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:41:04.644Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:41:04.644Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:41:04.645Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:43:13.738Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:43:13.740Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:43:13.740Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:43:13.741Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:43:13.742Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:44:23.815Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:44:23.816Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:44:23.817Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:44:23.817Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:44:23.818Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:47:27.670Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:47:27.672Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:47:27.672Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:47:27.673Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:47:27.674Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T05:47:40.497Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T05:47:40.499Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T05:47:40.500Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T05:47:40.500Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T05:47:40.502Z","username":"johndoe"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2023-10-15T06:32:15.425Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2023-10-15T06:32:15.427Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2023-10-15T06:32:15.427Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2023-10-15T06:32:15.427Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2023-10-15T06:32:15.429Z","username":"johndoe"}

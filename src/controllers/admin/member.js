@@ -203,8 +203,14 @@ const getMember = async (req, res) => {
   LEFT JOIN (SELECT s.*,i.ism_result,SUM(s.sale_price*(SELECT IF(LENGTH(s.sale_num)=2,pay_two,
   IF(LENGTH(s.sale_num)=3,pay_three,IF(LENGTH(s.sale_num)=4,pay_four,IF(LENGTH(s.sale_num)=5,pay_five,pay_six)))) FROM payrate where id=1) /1000) AS win_amount FROM installment i 
   RIGHT JOIN sale s ON s.ism_id=i.ism_ref AND s.is_cancel=0 WHERE i.ism_date =(SELECT MAX(ism_date) FROM installment) 
-  AND (s.sale_num = SUBSTRING(i.ism_result, -6, 6) OR s.sale_num = SUBSTRING(i.ism_result, -5, 5) OR s.sale_num = SUBSTRING(i.ism_result, -4, 4) OR s.sale_num = SUBSTRING(i.ism_result, -3, 3) OR s.sale_num = SUBSTRING(i.ism_result, -2, 2)) GROUP BY s.mem_id  ORDER BY s.id DESC) AS win ON win.mem_id=m.mem_id 
-  WHERE m.mem_id IN (SELECT mn.mem_id  FROM member mn WHERE mn.brc_code=(SELECT m.brc_code FROM member m WHERE m.mem_id='${p_mem_id}' ) ) GROUP BY m.id ORDER BY m.brc_code,m.mem_name`;
+  AND (s.sale_num = SUBSTRING(i.ism_result, -6, 6) 
+  OR s.sale_num = SUBSTRING(i.ism_result, -5, 5) 
+  OR s.sale_num = SUBSTRING(i.ism_result, -4, 4) 
+  OR s.sale_num = SUBSTRING(i.ism_result, -3, 3) 
+  OR s.sale_num = SUBSTRING(i.ism_result, -2, 2)) GROUP BY s.mem_id  
+  ORDER BY s.id DESC) AS win ON win.mem_id=m.mem_id 
+  WHERE m.mem_id IN (SELECT mn.mem_id  FROM member mn WHERE mn.brc_code=(SELECT m.brc_code FROM member m 
+    WHERE m.mem_id='${p_mem_id}' ) ) GROUP BY m.id ORDER BY total desc,m.mem_name`;
   if (p_master == 1) {
     console.log("::::::::::MASTER REPORT:::::::");
     sql =
@@ -217,7 +223,7 @@ const getMember = async (req, res) => {
       AND (s.sale_num = SUBSTRING(i.ism_result, -6, 6) OR s.sale_num = SUBSTRING(i.ism_result, -5, 5) 
       OR s.sale_num = SUBSTRING(i.ism_result, -4, 4) OR s.sale_num = SUBSTRING(i.ism_result, -3, 3) 
       OR s.sale_num = SUBSTRING(i.ism_result, -2, 2)) GROUP BY s.mem_id  ORDER BY s.id DESC) AS win ON win.mem_id=m.mem_id 
-      GROUP BY m.id ORDER BY m.brc_code,m.mem_name`;
+      GROUP BY m.id ORDER BY total desc,m.mem_name`;
   }
   /*
   SELECT s.*,mem.*,p.* FROM sale s LEFT JOIN (SELECT m.mem_id, b.co_code,b.id FROM member m LEFT JOIN branch b ON m.brc_code = b.co_code) mem ON mem.mem_id = s.mem_id LEFT JOIN payrate p ON p.branch_id = mem.id WHERE s.ism_id='10304' and s.is_cancel=0 AND s.sale_num AND s.sale_num IN('648723','48723','8723','723','23') 
