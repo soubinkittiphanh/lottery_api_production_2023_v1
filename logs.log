@@ -8825,3 +8825,4 @@
 {"level":"warn","message":"AVAILABLE   : ************ 100000 ************","timestamp":"2024-03-14T00:02:42.828Z"}
 {"level":"info","message":"Over limit error length: 0","timestamp":"2024-03-14T00:02:42.829Z"}
 {"level":"info","message":"Transaction completed: 1 \n [object SequelizeInstance:transaction]","timestamp":"2024-03-14T00:02:42.862Z"}
+{"level":"warn","message":"(**** Authenticate user ****)","timestamp":"2024-03-14T00:12:33.163Z"}
