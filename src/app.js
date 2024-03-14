@@ -14,7 +14,7 @@ const buildApp = async () => {
     //*********************** Security *************************
     app.post("/api/signon",authenticate);
     app.get("/api/logout",jwtApi.deleteToken);
-    app.get("/api/me",jwtApi.getUserFromToken);
+    app.get("/api/me",jwtApi.getUserFromToken); //
     //*********************** Security *************************
     
     app.use("/api/category",router.category)

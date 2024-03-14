@@ -8826,3 +8826,19 @@
 {"level":"info","message":"Over limit error length: 0","timestamp":"2024-03-14T00:02:42.829Z"}
 {"level":"info","message":"Transaction completed: 1 \n [object SequelizeInstance:transaction]","timestamp":"2024-03-14T00:02:42.862Z"}
 {"level":"warn","message":"(**** Authenticate user ****)","timestamp":"2024-03-14T00:12:33.163Z"}
+{"level":"info","message":"app is runing: 8081","timestamp":"2024-03-14T00:27:38.766Z"}
+{"level":"info","message":"env: lottery_r23_dev","timestamp":"2024-03-14T00:27:38.768Z"}
+{"level":"info","message":"DB Connection established","timestamp":"2024-03-14T00:27:38.951Z"}
+{"level":"info","message":"Datatase is synchronize","timestamp":"2024-03-14T00:27:41.730Z"}
+{"level":"warn","message":"(**** Authenticate user ****)","timestamp":"2024-03-14T00:30:17.568Z"}
+{"level":"warn","message":"USER DB Soubin","timestamp":"2024-03-14T00:30:17.625Z"}
+{"level":"warn","message":"password match result true","timestamp":"2024-03-14T00:30:17.695Z"}
+{"level":"warn","message":"=> generating token [object SequelizeInstance:users]","timestamp":"2024-03-14T00:30:17.696Z"}
+{"level":"warn","message":"(**** Authenticate user ****)","timestamp":"2024-03-14T00:30:33.707Z"}
+{"level":"warn","message":"USER DB Soubin","timestamp":"2024-03-14T00:30:33.761Z"}
+{"level":"warn","message":"password match result true","timestamp":"2024-03-14T00:30:33.864Z"}
+{"level":"warn","message":"=> generating token [object SequelizeInstance:users]","timestamp":"2024-03-14T00:30:33.865Z"}
+{"level":"info","message":"app is runing: 8081","timestamp":"2024-03-14T00:40:40.079Z"}
+{"level":"info","message":"env: lottery_r23_dev","timestamp":"2024-03-14T00:40:40.081Z"}
+{"level":"info","message":"DB Connection established","timestamp":"2024-03-14T00:40:40.277Z"}
+{"level":"info","message":"Datatase is synchronize","timestamp":"2024-03-14T00:40:43.125Z"}
