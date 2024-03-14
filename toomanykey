@@ -1,0 +1,69 @@
+ALTER TABLE `users` DROP INDEX `signonId_10`;
+ALTER TABLE `users` DROP INDEX `signonId_11`;
+ALTER TABLE `users` DROP INDEX `signonId_12`;
+ALTER TABLE `users` DROP INDEX `signonId_13`;
+ALTER TABLE `users` DROP INDEX `signonId_14`;
+ALTER TABLE `users` DROP INDEX `signonId_15`;
+ALTER TABLE `users` DROP INDEX `signonId_16`;
+ALTER TABLE `users` DROP INDEX `signonId_17`;
+ALTER TABLE `users` DROP INDEX `signonId_18`;
+ALTER TABLE `users` DROP INDEX `signonId_19`;
+ALTER TABLE `users` DROP INDEX `signonId_20`;
+ALTER TABLE `users` DROP INDEX `signonId_21`;
+ALTER TABLE `users` DROP INDEX `signonId_22`;
+ALTER TABLE `users` DROP INDEX `signonId_23`;
+
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_3`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_4`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_5`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_6`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_7`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_8`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_9`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_10`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_11`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_12`;
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_13`;
+
+
+ALTER TABLE `category` DROP INDEX `abbr_3`;
+ALTER TABLE `category` DROP INDEX `abbr_4`;
+ALTER TABLE `category` DROP INDEX `abbr_5`;
+ALTER TABLE `category` DROP INDEX `abbr_6`;
+ALTER TABLE `category` DROP INDEX `abbr_7`;
+ALTER TABLE `category` DROP INDEX `abbr_8`;
+ALTER TABLE `category` DROP INDEX `abbr_9`;
+ALTER TABLE `category` DROP INDEX `abbr_10`;
+ALTER TABLE `category` DROP INDEX `abbr_11`;
+ALTER TABLE `category` DROP INDEX `abbr_12`;
+ALTER TABLE `category` DROP INDEX `abbr_13`;
+
+
+ALTER TABLE `branch` DROP INDEX `branchCode_3`;
+ALTER TABLE `branch` DROP INDEX `branchCode_4`;
+ALTER TABLE `branch` DROP INDEX `branchCode_5`;
+ALTER TABLE `branch` DROP INDEX `branchCode_6`;
+ALTER TABLE `branch` DROP INDEX `branchCode_7`;
+ALTER TABLE `branch` DROP INDEX `branchCode_8`;
+ALTER TABLE `branch` DROP INDEX `branchCode_9`;
+ALTER TABLE `branch` DROP INDEX `branchCode_10`;
+ALTER TABLE `branch` DROP INDEX `branchCode_11`;
+ALTER TABLE `branch` DROP INDEX `branchCode_12`;
+ALTER TABLE `branch` DROP INDEX `branchCode_13`;
+
+
+ALTER TABLE `schedule` DROP INDEX `date_3`;
+ALTER TABLE `schedule` DROP INDEX `date_4`;
+ALTER TABLE `schedule` DROP INDEX `date_5`;
+ALTER TABLE `schedule` DROP INDEX `date_6`;
+ALTER TABLE `schedule` DROP INDEX `date_7`;
+ALTER TABLE `schedule` DROP INDEX `date_8`;
+ALTER TABLE `schedule` DROP INDEX `date_9`;
+ALTER TABLE `schedule` DROP INDEX `date_10`;
+ALTER TABLE `schedule` DROP INDEX `date_11`;
+ALTER TABLE `schedule` DROP INDEX `date_12`;
+ALTER TABLE `schedule` DROP INDEX `date_13`;
+
+
+
+ALTER TABLE `transaction` DROP INDEX `ticketNumber_2`;
